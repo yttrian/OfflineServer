@@ -1,0 +1,5 @@
+name: OfflineServer
+version: '1.0'
+main: org.yttr.offlineserver.OfflineServer
+depend:
+  - ProtocolLib
