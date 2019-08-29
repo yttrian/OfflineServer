@@ -9,7 +9,7 @@ import org.bukkit.plugin.java.JavaPlugin
 class AdaptPing(plugin: JavaPlugin) : PacketAdapter(
     plugin,
     ListenerPriority.HIGHEST,
-    PacketType.Status.Client.PING
+    listOf(PacketType.Status.Client.START, PacketType.Status.Client.PING)
 ) {
     override fun onPacketReceiving(event: PacketEvent) {
         event.isCancelled = true

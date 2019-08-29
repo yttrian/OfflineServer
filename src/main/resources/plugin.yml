@@ -1,5 +1,12 @@
 name: OfflineServer
 version: '1.0'
+description: >
+  Makes your server appear offline in server listings,
+  and act like it's offline if you have a whitelist and someone not on it tries to join.
+author: Throudin
+
 main: org.yttr.offlineserver.OfflineServer
+database: false
+load: STARTUP
 depend:
   - ProtocolLib

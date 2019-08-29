@@ -1,17 +1,20 @@
 package org.yttr.offlineserver.adapters
 
 import com.comphenix.protocol.PacketType
+import com.comphenix.protocol.PacketType.Sender
 import com.comphenix.protocol.events.ListenerPriority
 import com.comphenix.protocol.events.PacketAdapter
 import com.comphenix.protocol.events.PacketEvent
 import org.bukkit.plugin.java.JavaPlugin
 
-class AdaptServerInfo(plugin: JavaPlugin) : PacketAdapter(
+// TODO: Fix failing to properly adapt legacy handshake packets
+class AdaptLegacyHandshake(plugin: JavaPlugin) : PacketAdapter(
     plugin,
     ListenerPriority.HIGHEST,
-    PacketType.Status.Server.SERVER_INFO
+    // https://wiki.vg/Server_List_Ping#1.6
+    PacketType.newLegacy(Sender.CLIENT, 0xFE)
 ) {
-    override fun onPacketSending(event: PacketEvent) {
+    override fun onPacketReceiving(event: PacketEvent) {
         event.isCancelled = true
     }
 }
