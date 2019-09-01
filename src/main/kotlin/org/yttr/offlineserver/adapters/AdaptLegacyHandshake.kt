@@ -8,6 +8,14 @@ import com.comphenix.protocol.events.PacketEvent
 import org.bukkit.plugin.java.JavaPlugin
 
 // TODO: Fix failing to properly adapt legacy handshake packets
+/**
+ * Legacy clients (1.6 and below) use a different method of retrieving server status which we also need to account for
+ * to make sure the server is also hidden to them as well.
+ *
+ * The packet is identified by FE, which we need to intercept to prevent the server from responding.
+ *
+ * https://wiki.vg/Server_List_Ping
+ */
 class AdaptLegacyHandshake(plugin: JavaPlugin) : PacketAdapter(
     plugin,
     ListenerPriority.HIGHEST,

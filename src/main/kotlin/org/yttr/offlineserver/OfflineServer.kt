@@ -3,18 +3,9 @@ package org.yttr.offlineserver
 import com.comphenix.protocol.ProtocolLibrary
 import org.bukkit.plugin.java.JavaPlugin
 import org.yttr.offlineserver.adapters.*
-import org.yttr.offlineserver.listeners.ListenLogin
 
 class OfflineServer : JavaPlugin() {
     override fun onEnable() {
-        // Register Spigot listeners
-        val pluginManager = server.pluginManager
-        val eventListeners = listOf(ListenLogin(this))
-
-        eventListeners.forEach { listener ->
-            pluginManager.registerEvents(listener, this)
-        }
-
         // Register ProtocolLib listeners
         val protocolManager = ProtocolLibrary.getProtocolManager()
         val packetListeners = listOf(
