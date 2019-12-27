@@ -26,8 +26,8 @@ Project: Kotlin https://github.com/JetBrains/kotlin
 Copyright (c) 2019, JetBrains  
 License (Apache License v2.0) https://github.com/JetBrains/kotlin/blob/master/license/LICENSE.txt
 
-Project: Spigot-API https://hub.spigotmc.org/stash/projects/SPIGOT
-Copyright (c) 2019, md_5
+Project: Spigot-API https://hub.spigotmc.org/stash/projects/SPIGOT  
+Copyright (c) 2019, md_5  
 License (GNU General Public License v3.0) https://github.com/SpigotMC/Spigot-API/blob/master/LICENCE.txt
 
 Project: ProtocolLib https://github.com/dmulloy2/ProtocolLib/  
