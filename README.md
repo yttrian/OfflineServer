@@ -1,5 +1,5 @@
-![GitHub](https://img.shields.io/github/license/yttrian/OfflineServer)
-![GitHub Workflow Status](https://img.shields.io/github/workflow/status/yttrian/OfflineServer/Java%20CI/master)
+[![GitHub](https://img.shields.io/github/license/yttrian/OfflineServer)](https://github.com/yttrian/OfflineServer/blob/master/LICENSE)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/yttrian/OfflineServer/Java%20CI/master)](https://github.com/yttrian/OfflineServer/actions)
 [![Download](https://img.shields.io/badge/CurseForge-download-purple)](https://www.curseforge.com/minecraft/bukkit-plugins/offlineserver)
 
 # OfflineServer
