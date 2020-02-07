@@ -1,3 +1,7 @@
+![GitHub](https://img.shields.io/github/license/yttrian/OfflineServer)
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/yttrian/OfflineServer/Java%20CI)
+[![Download](https://img.shields.io/badge/CurseForge-download-purple)](https://www.curseforge.com/minecraft/bukkit-plugins/offlineserver)
+
 # OfflineServer
 
 Makes your server appear offline in server listings,
