@@ -36,4 +36,4 @@ License (GNU General Public License v3.0) https://github.com/SpigotMC/Spigot-API
 
 Project: ProtocolLib https://github.com/dmulloy2/ProtocolLib/  
 Copyright (c) 2019, dmulloy2  
-License (GNU General Public License v2.0) https://github.com/dmulloy2/ProtocolLib/blob/gradle/License.txt
+License (GNU General Public License v2.0) https://github.com/dmulloy2/ProtocolLib/blob/master/License.txt
