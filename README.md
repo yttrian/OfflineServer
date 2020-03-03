@@ -16,11 +16,6 @@ Using ProtocolLib, OfflineServer intercepts server list info packets and makes s
 they are never processed by the server. This way the server appears to be offline,
 but in reality it's actually online.
 
-Furthermore, if you have a whitelist enabled, the whitelist kick message will be replaced
-with the appropriate error that would normally be shown for a server that is offline.
-
-This also applies to outdated client/server warning messages.
-
 ## Credits
 
 This application uses open source components. 
