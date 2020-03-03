@@ -22,7 +22,7 @@ This application uses open source components.
 You can find the source code of their open source projects along with license information below.
 
 Project: Kotlin https://github.com/JetBrains/kotlin  
-Copyright (c) 2019, JetBrains  
+Copyright (c) 2020, JetBrains  
 License (Apache License v2.0) https://github.com/JetBrains/kotlin/blob/master/license/LICENSE.txt
 
 Project: Spigot-API https://hub.spigotmc.org/stash/projects/SPIGOT  
